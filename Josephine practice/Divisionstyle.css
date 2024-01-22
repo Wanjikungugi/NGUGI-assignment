@@ -1,0 +1,11 @@
+.heading{
+    background-color: mediumblue;
+    text-align: center;
+}
+
+.heading1{
+    text-align: center;
+}
+img{
+    display: flex;
+}

@@ -1,0 +1,10 @@
+body{background-color: darkolivegreen;
+    border-radius: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: auto;
+}
+h1{width: 50%;
+    background-color: gold;
+    text-align: center;
+}

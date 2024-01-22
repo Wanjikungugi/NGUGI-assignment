@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FORM</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+
+<legend><u>PROJECT MANAGEMENT</u></legend>
+<form action="">
+    <label for="pname">Project Name:</label>
+    <input type="text" id="pname" placeholder="project name" required="required">
+    <br><br>
+
+
+
+    <label for="assignee"class="assignee" >Assigned to:</label>
+    <select name="" id="assignee" >
+    <option value="choose" disabled="disabled"></option>
+    <option value="sarah nyaga">Sarah Nyaga</option>
+    <option value="edison kipkoech">Edison Kipkoech</option>
+    <option value="nala terer">Nala Terer</option>
+    </select>
+    <br><br>
+
+
+    <label for="sdate">Start Date:</label>
+    <input type="date" id="sdate"><br><br>
+
+    <label for="edate">End Date:</label>
+    <input type="date" id="edate"><br><br>
+
+    <label   for="prior" id="prior">Priority:</label>
+
+    <input  class="radio" type="radio" id="high">
+    <label for="high">High</label>
+    <input type="radio" id="Average">
+    <label for="Average">Average</label>
+    <input type="radio" id="low">
+    <label for="low">Low</label>
+
+
+    <br><br>
+
+
+    <label class="describe" for="describe">Description:</label>
+    <textarea name="" id="describe" cols="80" rows="0" placeholder="Write the description..." required="required"></textarea>
+    <br><br>
+
+    <button type="submit" class="button1" >Submit</button>
+    <button type="submit" class="button2" >Clear</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-color: royalblue;
+    background-repeat: no-repeat;
+
+
+}
+
+
+form{
+    text-align: center;
+    background-color: #faf2e4;
+    width: 60%;
+    padding-top: 30px;
+    margin-right: 30px;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.fb{
+    width: 10%;
+}
+.x{
+    width: 10%;
+}
+.ig {
+    width: 15%;
+}
+.tik{
+    width: 10%;
+}
+.pin{
+    width: 10%;
+}
